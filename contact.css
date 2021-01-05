@@ -1,0 +1,56 @@
+@charset "ISO-8859-1";
+
+h4{
+	text-align:center;
+	font-size:45px;
+	font-weight:bold;
+	margin-top:20px;
+	margin-bottom:15px;
+	color:Darkblue;
+}
+.contactform{
+	padding:20px 3px 50px 30px;
+	font-weight:bold;
+	font-size:30px;
+	background:grey;
+	top:50%;
+	box-sizing:border-box;
+	width:600px;
+	height:660px;
+}
+	.adminprofile{
+	display:inline-block;
+	float:right;
+	margin-right:100px;
+	margin-top:20px;
+    transition: transform .2s; /* Animation */
+}
+.adminprofile:hover{
+transform: scale(1.1); 
+}
+
+	
+	
+}
+.contactform input[type="submit"]
+{
+	width:30%;
+	height:40px;
+	text-align:center;
+	margin-left:140px;
+	font-weight:bold;
+	font-size:20px;
+}
+.contactform p{
+	margin:0;
+	padding:0;
+	font-size:40px;
+}
+
+.contactform input{
+	width:250px;
+	margin-bottom:25px;
+	margin-top:10px;
+	height:30px;
+}
+

@@ -1,0 +1,218 @@
+@charset "ISO-8859-1";
+
+.logincontainer {
+position:relative;
+margin-top:30px; 
+   
+}
+.text p{
+	color:white;
+	padding:5px;
+	text-align:center;
+}
+.adminbox{
+	box-sizing:border-box;
+	background:white;
+	color:white;
+	width:200px;
+	margin-left:150px;
+}
+.text2{
+	color:black;
+	width:40%;
+	position:absolute;
+	 top: 50px;
+    right: 16px;
+    font-size:30px;
+    font-weight:bold;
+    text-align:justify;
+    padding:5px 5px 5px 5px;
+	
+
+}
+
+.text{
+	 color:black;
+	 width:40%;
+	 position:absolute;
+	 top: 50px;
+    left: 16px;
+    font-size:30px;
+    font-weight:bold;
+    text-align:justify;
+    padding:5px 5px 5px 5px;
+	}
+
+
+ 
+.container {
+    position: relative;
+    height:400px;
+    width:350px;
+    box-sizing:border-box;
+    background:white;
+    margin-left:40px;
+    margin-top:30px;
+    display:inline-block;  
+    float:left; 
+    margin-right:49px; 	
+}
+.bigcontainer{
+	width:100%;
+	background:darkgrey;
+	height:500px;
+	box-sizing:border-box;
+	margin-top:40px;
+}
+.myimg{
+	height:200px;
+	width:200px;
+	border-radius:50%;
+	padding:10px 0px 10px 70px;
+	
+}
+.rectangle{
+	top:-50px;
+    left: calc(50% - 50px);
+	box-sizing:border-box;
+	margin-left:40px;
+	margin-right:40px;
+	background:Peachpuff;
+	color:black;
+	padding:5px 10px 10px 10px;
+	height:40px;
+	width:80%;
+	font-size:25px;
+	font-weight:bold;
+	font-align:justify;
+}
+.rectangle1{
+	box-sizing:border-box;
+	
+}
+
+.container1 {
+	margin-top:10px;
+	background:#0080ff;
+	width:100%;
+	height:190px;
+	display:inline-block;
+	font-size:30px;
+	color:white;
+	padding:0px 50px 0px 20px;
+}
+.container1 img {
+	float:right;
+margin-right:40px;
+}
+
+
+   
+.container p{
+	font-size:16px;
+	color:black;
+	margin-left:3px;
+	font-family:verdana;
+	font-weight:bold;
+	text-align:justify;
+	padding-left:10px;
+	padding-right:15px;
+}
+	
+
+
+.image {
+    display: inline-block;
+    position:relative;
+    float:left;
+    margin: 0px;
+    padding: 0px;
+    overflow-y: hidden;
+overflow-x:auto;
+white-space:nowrap;
+top: 90px;
+height: auto;
+max-width:auto;
+}
+* {
+box-sizing:border-box
+	}
+.ImageContainer{
+    position: relative;
+    margin-left:40px;
+    height:400px;
+    width:500px;
+    margin-top:20px;
+    border:white;
+    margin-right:40px;
+}
+
+.mySlide {
+    display: none;
+    
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.next {
+	padding-right:10px;
+  right:0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.footer{
+	bottom:0;
+	position: relative;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height:100px;
+    padding:5px;
+    font-weight:bold;
+    font-size:25px;
+}
+
+
